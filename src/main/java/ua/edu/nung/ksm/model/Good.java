@@ -131,4 +131,3 @@ public class Good {
         return result;
     }
 }
-

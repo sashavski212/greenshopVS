@@ -1,21 +1,29 @@
 package ua.edu.nung.ksm.model;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthException;
+import com.google.firebase.auth.UserRecord;
+
 import java.util.Objects;
 
 public class User {
+    public static final String USER_SESSION_NAME = "user";
     private String email;
     private String password;
+    private String displayName;
     private String phone;
-    private String name;
+    private String city;
+    private String street;
 
-    public User() {
-    }
+    public User() {}
 
-    public User (String email, String password, String phone, String name) {
+    public User(String email, String password, String displayName, String phone, String city, String street) {
         this.email = email;
         this.password = password;
+        this.displayName = displayName;
         this.phone = phone;
-        this.name = name;
+        this.city = city;
+        this.street = street;
     }
 
     public String getEmail() {
@@ -42,32 +50,51 @@ public class User {
         this.phone = phone;
     }
 
-    public String getName() {
-        return name;
+    public String getCity() {
+        return city;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public void setStreet(String street) {
+        this.street = street;
+    }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public void setDisplayName(String displayName) {
+        this.displayName = displayName;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
-                ", name='" + name + '\'' +
+                "Email='" + email + '\'' +
+                ", Password='" + password + '\'' +
+                ", Phone='" + phone + '\'' +
+                ", City='" + city + '\'' +
+                ", Street='" + street + '\'' +
                 '}';
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof User)) return false;
         User user = (User) o;
-        return Objects.equals(email, user.email) && Objects.equals(phone, user.phone) && Objects.equals(name, user.name);
+        return Objects.equals(getEmail(), user.getEmail()) && Objects.equals(getPhone(), user.getPhone()) && Objects.equals(getCity(), user.getCity()) && Objects.equals(getStreet(), user.getStreet());
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(email, phone, name);
+        return Objects.hash(getEmail(), getPassword(), getPhone(), getCity(), getStreet());
     }
 }
