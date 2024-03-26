@@ -69,12 +69,12 @@ public class StartServlet extends HttpServlet {
         Firebase firebase = Firebase.getInstance();
         if (firebase.getUserByEmail(user.getEmail()).equals(Firebase.USER_EXISTS)) {
             String firebaseResponse = firebase.signInWithEmailAndPassword(user.getEmail(), user.getPassword());
-            if(firebaseResponse.equals(Firebase.PASSWORD_OK)) {
+            if (firebaseResponse.equals(Firebase.PASSWORD_OK)) {
                 System.out.println(Firebase.PASSWORD_OK);
                 user.setDisplayName("Best User");
                 httpSession = request.getSession();
                 httpSession.setAttribute(User.USER_SESSION_NAME, user);
-            }  else {
+            } else {
                 System.out.println("Wrong Password");
             }
         } else {
