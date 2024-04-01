@@ -10,13 +10,131 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Add Types and Price. MySQL">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Firebase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/IndexView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/IndexView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Firebase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Good.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Price.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/Types.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/IndexView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/emptyPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/footerPartial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/html/headerPartial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/model/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/model/Firebase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/model/Good.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/model/Price.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/model/Types.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/IndexView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/app.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/controller/CartServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/model/Cart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/model/Firebase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/model/Good.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/model/Price.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/model/Types.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/view/ContactView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/classes/ua/edu/nung/ksm/view/IndexView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/animal-sniffer-annotations-1.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/annotations-4.1.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/api-common-2.12.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/auto-value-annotations-1.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/checker-qual-3.32.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/commons-codec-1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/conscrypt-openjdk-uber-2.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/error_prone_annotations-2.18.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/firebase-admin-9.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/gapic-google-cloud-storage-v2-2.22.4-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/gax-2.29.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/gax-grpc-2.29.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/gax-httpjson-0.114.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-api-client-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-api-client-gson-2.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-api-services-storage-v1-rev20230301-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-auth-library-credentials-1.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-auth-library-oauth2-http-1.17.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-cloud-core-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-cloud-core-grpc-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-cloud-core-http-2.19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-cloud-firestore-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-cloud-storage-2.22.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-http-client-1.43.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-http-client-apache-v2-1.42.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-http-client-appengine-1.43.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-http-client-gson-1.42.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-http-client-jackson2-1.43.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/google-oauth-client-1.34.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-alts-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-api-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-auth-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-context-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-core-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-google-cloud-storage-v2-2.22.4-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-googleapis-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-grpclb-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-netty-shaded-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-protobuf-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-protobuf-lite-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-rls-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-services-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-stub-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/grpc-xds-1.55.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/gson-2.10.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/guava-31.1-jre.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/httpclient-4.5.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/httpcore-4.4.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/jackson-core-2.14.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/mysql-connector-j-8.0.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-buffer-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-codec-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-codec-http-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-common-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-handler-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-resolver-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-transport-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/netty-transport-native-unix-common-4.1.94.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/opencensus-api-0.31.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/opencensus-contrib-grpc-util-0.31.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/opencensus-contrib-http-util-0.31.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/opencensus-proto-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/perfmark-api-0.26.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/proto-google-cloud-firestore-bundle-v1-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/proto-google-cloud-firestore-v1-3.13.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/proto-google-cloud-storage-v2-2.22.4-alpha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/proto-google-common-protos-2.20.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/proto-google-iam-v1-1.15.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/protobuf-java-3.19.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/protobuf-java-util-3.23.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/re2j-1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/slf4j-api-2.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/lib/threetenbp-1.6.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/html/emptyPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/html/footerPartial.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp2/html/headerPartial.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,35 +185,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.0.27.executor": "Run",
-    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/University/Java Spring/greenshopVS/greenshopVS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Database Script.goods.sql.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 10.0.27.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/University/Java Spring/greenshopVS/greenshopVS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ],
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;8e5d32c8-0a72-4aba-b2f3-03c65b665477/schema/\&quot;webapp\&quot;&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\University\Java Spring\greenshopVS\greenshopVS\src\main" />
@@ -103,7 +225,13 @@
       <recent name="D:\University\Java Spring\webshop\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.27">
+    <configuration name="goods.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/goods.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="8e5d32c8-0a72-4aba-b2f3-03c65b665477" namespace="schema/&quot;webapp&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -269,6 +397,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.goods.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -307,7 +440,10 @@
       <workItem from="1710700998427" duration="1542000" />
       <workItem from="1710702727694" duration="1355000" />
       <workItem from="1711434624270" duration="265000" />
-      <workItem from="1711434901744" duration="889000" />
+      <workItem from="1711434901744" duration="1598000" />
+      <workItem from="1711953929954" duration="1142000" />
+      <workItem from="1711955087485" duration="1287000" />
+      <workItem from="1711957067570" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World from Servlet! (Lab1)">
       <option name="closed" value="true" />
@@ -325,7 +461,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710691652003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Types and Price. MySQL">
+      <option name="closed" value="true" />
+      <created>1711436073638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711436073638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +504,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test of changes" />
     <MESSAGE value="Hello World from Servlet! (Lab1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello World from Servlet! (Lab1)" />
+    <MESSAGE value="Add Types and Price. MySQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Types and Price. MySQL" />
   </component>
 </project>
