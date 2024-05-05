@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="greenshopVS:war" />
       <artifact name="greenshopVS:war exploded" />
     </artifacts-to-build>
   </component>
@@ -11,10 +15,24 @@
   <component name="ChangeListManager">
     <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Add Goods information">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Good.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Price.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/DataSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/GoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/GoodRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/ViewConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/ViewConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Good.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webapp/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +50,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -78,7 +97,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/University/Java Spring/greenshopVS/greenshopVS&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/University/Java Spring/greenshopVS/greenshopVS/src/main/webapp/WEB-INF/img&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,7 +106,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -121,6 +141,16 @@
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
+        <artifact name="greenshopVS:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/greenshopVS_war" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/img">
+          <settings>
+            <option name="CONTEXT_PATH" value="/img" />
+          </settings>
+        </file>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="f0558921-15d0-4068-a8e4-68395e20561b" />
@@ -197,6 +227,7 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="greenshopVS:war exploded" />
+          <artifact name="greenshopVS:war" />
         </option>
       </method>
     </configuration>
@@ -278,6 +309,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Database Script.goods.sql" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Database Script.goods.sql" />
@@ -331,6 +366,7 @@
       <workItem from="1712341216938" duration="634000" />
       <workItem from="1712388557534" duration="94000" />
       <workItem from="1713762843897" duration="210000" />
+      <workItem from="1713808573459" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World from Servlet! (Lab1)">
       <option name="closed" value="true" />
