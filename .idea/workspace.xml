@@ -12,25 +12,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="add photo">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/CartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Firebase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Types.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/footerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/footerPartial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/headerPartial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
+    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Fix a bug with the display of photos. Adding logs">
+      <change beforePath="$PROJECT_DIR$/target/webapp/htmlBuilder/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/htmlBuilder/footerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/htmlBuilder/footerPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/htmlBuilder/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/htmlBuilder/headerPartial.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +357,7 @@
       <workItem from="1715777774217" duration="1270000" />
       <workItem from="1715780659690" duration="5781000" />
       <workItem from="1715806111244" duration="133000" />
-      <workItem from="1715806436280" duration="2795000" />
+      <workItem from="1715806436280" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World from Servlet! (Lab1)">
       <option name="closed" value="true" />
@@ -414,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714909356804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fix a bug with the display of photos. Adding logs">
+      <option name="closed" value="true" />
+      <created>1715850473492</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715850473492</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,6 +445,7 @@
     <MESSAGE value="Add Types and Price. MySQL" />
     <MESSAGE value="Add Goods information" />
     <MESSAGE value="add photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add photo" />
+    <MESSAGE value="Fix a bug with the display of photos. Adding logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix a bug with the display of photos. Adding logs" />
   </component>
 </project>
