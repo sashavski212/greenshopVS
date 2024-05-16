@@ -5,7 +5,6 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="greenshopVS:war" />
       <artifact name="greenshopVS:war exploded" />
     </artifacts-to-build>
   </component>
@@ -13,27 +12,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Add Goods information">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="add photo">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/CartServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Good.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Price.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Price.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/DataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/DataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/GoodRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/GoodRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/ViewConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/ViewConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Firebase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Firebase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Types.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/Types.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/dao/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/footerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/footerPartial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/htmlBuilder/headerPartial.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Good.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Price.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/University/Java Spring/greenshopVS/greenshopVS/src/main/webapp/WEB-INF/img&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/University/Java Spring/greenshopVS/greenshopVS/src/main/webapp/WEB-INF/js&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -141,14 +138,19 @@
             <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
-        <artifact name="greenshopVS:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/greenshopVS_war" />
-          </settings>
-        </artifact>
         <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/img">
           <settings>
             <option name="CONTEXT_PATH" value="/img" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/css">
+          <settings>
+            <option name="CONTEXT_PATH" value="/css" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$/src/main/webapp/WEB-INF/js">
+          <settings>
+            <option name="CONTEXT_PATH" value="/js" />
           </settings>
         </file>
       </deployment>
@@ -227,7 +229,6 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="greenshopVS:war exploded" />
-          <artifact name="greenshopVS:war" />
         </option>
       </method>
     </configuration>
@@ -367,6 +368,11 @@
       <workItem from="1712388557534" duration="94000" />
       <workItem from="1713762843897" duration="210000" />
       <workItem from="1713808573459" duration="2608000" />
+      <workItem from="1714909180725" duration="194000" />
+      <workItem from="1715777774217" duration="1270000" />
+      <workItem from="1715780659690" duration="5781000" />
+      <workItem from="1715806111244" duration="133000" />
+      <workItem from="1715806436280" duration="2795000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World from Servlet! (Lab1)">
       <option name="closed" value="true" />
@@ -400,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711957668813</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add photo">
+      <option name="closed" value="true" />
+      <created>1714909356803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714909356804</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,6 +451,7 @@
     <MESSAGE value="Hello World from Servlet! (Lab1)" />
     <MESSAGE value="Add Types and Price. MySQL" />
     <MESSAGE value="Add Goods information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Goods information" />
+    <MESSAGE value="add photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add photo" />
   </component>
 </project>
