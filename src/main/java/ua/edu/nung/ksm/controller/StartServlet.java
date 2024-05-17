@@ -56,16 +56,6 @@ public class StartServlet extends HttpServlet {
                 .getFullPage();
 
         out.println(builderPage);
-
-        // TODO remove test code
-        UserRepository userRepository = new UserRepository();
-        User user1 = userRepository.getUserByEmail("ihorlt@gmail.com");
-        System.out.println(user1);
-
-
-//        user.setEmail("email1@email.com");
-//        user.setPassword("112211221122");
-//        user.setDisplayName("Test User");
     }
 
     @Override
@@ -73,8 +63,10 @@ public class StartServlet extends HttpServlet {
         String contextPath = request.getContextPath();
         String email = request.getParameter("email");
         String password = request.getParameter("password");
+        long id = Long.parseLong(request.getParameter("id"));
         HttpSession httpSession;
         User user = new User();
+        user.setId(id);
         user.setEmail(email);
         user.setPassword(password);
 

@@ -12,10 +12,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Fix a bug with the display of photos. Adding logs">
-      <change beforePath="$PROJECT_DIR$/target/webapp/htmlBuilder/emptyPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/htmlBuilder/emptyPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/htmlBuilder/footerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/htmlBuilder/footerPartial.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/htmlBuilder/headerPartial.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/htmlBuilder/headerPartial.html" afterDir="false" />
+    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Add forgotten files to git">
+      <change afterPath="$PROJECT_DIR$/prices.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/goods.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/ContactView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/ContactView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/ContactView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/logs/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/sql.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,45 +75,48 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2ctUdV8AddB5lIGM5IoaZBlBoGI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Database Script.goods.sql.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 10.0.27.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.Tomcat 10.1.19.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/University/Java Spring/greenshopVS/greenshopVS/src/main/webapp/WEB-INF/js&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;database.query.execution&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Database Script.goods.sql.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 10.0.27.executor": "Debug",
+    "Tomcat Server.Tomcat 10.1.19.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/University/Java Spring/greenshopVS/greenshopVS/src/main/webapp/WEB-INF/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "database.query.execution",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;8e5d32c8-0a72-4aba-b2f3-03c65b665477/schema/\&quot;webapp\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "8e5d32c8-0a72-4aba-b2f3-03c65b665477/schema/\"webapp\""
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\University\Java Spring\greenshopVS\greenshopVS\src\main" />
@@ -357,7 +373,7 @@
       <workItem from="1715777774217" duration="1270000" />
       <workItem from="1715780659690" duration="5781000" />
       <workItem from="1715806111244" duration="133000" />
-      <workItem from="1715806436280" duration="3494000" />
+      <workItem from="1715806436280" duration="19318000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World from Servlet! (Lab1)">
       <option name="closed" value="true" />
@@ -407,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715850473492</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add forgotten files to git">
+      <option name="closed" value="true" />
+      <created>1715850985504</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715850985504</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,12 +464,59 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Test of changes" />
     <MESSAGE value="Hello World from Servlet! (Lab1)" />
     <MESSAGE value="Add Types and Price. MySQL" />
     <MESSAGE value="Add Goods information" />
     <MESSAGE value="add photo" />
     <MESSAGE value="Fix a bug with the display of photos. Adding logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix a bug with the display of photos. Adding logs" />
+    <MESSAGE value="Add forgotten files to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add forgotten files to git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
+          <line>78</line>
+          <properties class="ua.edu.nung.ksm.controller.GoodsServlet" method="addItem">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
