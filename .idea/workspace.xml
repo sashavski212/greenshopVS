@@ -5,30 +5,67 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="greenshopVS:war exploded" />
+      <artifact name="webapp:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Add forgotten files to git">
-      <change afterPath="$PROJECT_DIR$/prices.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
+    <list default="true" id="26a8d084-df13-4cd8-a5f4-678f0eb66cd0" name="Changes" comment="Lab5">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/logback-classic-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/logback-core-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/lib/slf4j-api-2.0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/webapp/logs/app.log.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/webapp/logs/app.log.1.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8e5d32c8-0a72-4aba-b2f3-03c65b665477.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/goods.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/view/ContactView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sql.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/ContactView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Firebase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Firebase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Good.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/Types.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/dao/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/MainPage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/MainPage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/ViewConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/nung/ksm/view/ViewConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/AuthFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/GoodsServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/controller/StartServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/ContactView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Cart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Cart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Firebase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Firebase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Good.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Good.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Price.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Price.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Types.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/Types.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/DataSource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/DataSource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/GoodRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/OrderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/dao/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/MainPage$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/MainPage$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/ViewConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/WEB-INF/classes/ua/edu/nung/ksm/view/ViewConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/webapp/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/webapp/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/webapp/sql.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,14 +90,12 @@
     &quot;assignee&quot;: &quot;sashavski212&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="e3f25db7-21ea-48c9-b95e-5a03b47e28a9" />
-        <option name="url" value="https://github.com/sashavski212/greenshopVS.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sashavski212/greenshopVS.git",
+    "accountId": "706a8f1a-07d2-426e-a724-6df4ae383306"
+  }
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -90,12 +125,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.0.27.executor": "Debug",
+    "Tomcat Server.Tomcat 10.0.27.executor": "Run",
     "Tomcat Server.Tomcat 10.1.19.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/University/Java Spring/greenshopVS/greenshopVS/src/main/webapp/WEB-INF/js",
+    "last_opened_file_path": "C:/Users/osv22/.m2/repository/com/google/api/gax-httpjson/0.114.0/gax-httpjson-0.114.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -103,7 +138,7 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.side.proportion": "0.48045978",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "database.query.execution",
     "vue.rearranger.settings.migration": "true"
@@ -134,7 +169,7 @@
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="greenshopVS:war exploded">
+        <artifact name="webapp:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="" />
           </settings>
@@ -229,7 +264,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="greenshopVS:war exploded" />
+          <artifact name="webapp:war exploded" />
         </option>
       </method>
     </configuration>
@@ -324,8 +359,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
-        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -374,6 +409,7 @@
       <workItem from="1715780659690" duration="5781000" />
       <workItem from="1715806111244" duration="133000" />
       <workItem from="1715806436280" duration="19318000" />
+      <workItem from="1716146696399" duration="2702000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World from Servlet! (Lab1)">
       <option name="closed" value="true" />
@@ -472,51 +508,7 @@
     <MESSAGE value="add photo" />
     <MESSAGE value="Fix a bug with the display of photos. Adding logs" />
     <MESSAGE value="Add forgotten files to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add forgotten files to git" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
-          <line>78</line>
-          <properties class="ua.edu.nung.ksm.controller.GoodsServlet" method="addItem">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/GoodsServlet.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ua/edu/nung/ksm/controller/StartServlet.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Lab5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab5" />
   </component>
 </project>

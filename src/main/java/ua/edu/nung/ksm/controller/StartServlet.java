@@ -63,10 +63,8 @@ public class StartServlet extends HttpServlet {
         String contextPath = request.getContextPath();
         String email = request.getParameter("email");
         String password = request.getParameter("password");
-        long id = Long.parseLong(request.getParameter("id"));
         HttpSession httpSession;
         User user = new User();
-        user.setId(id);
         user.setEmail(email);
         user.setPassword(password);
 
